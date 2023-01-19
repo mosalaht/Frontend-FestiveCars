@@ -1,0 +1,36 @@
+$primary-color: rgba(94, 80, 63, 0.81);
+$secondary-color: rgba(242, 244, 243, 1);
+
+
+.cars{
+    margin-top: 100px;
+    padding: 1rem;
+
+    h3{
+        font-weight: 600;
+        font-size: 1.5rem;
+    }
+}
+
+
+.add_btn_wrapper{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+    button{
+        background-color: $secondary-color;
+        color: $primary-color;
+        border: solid 1px $primary-color;
+        border-radius: 20px;
+        padding-inline: 15px;
+        padding-block: 7px;
+        transition: all 0.3s ease-in-out ;
+        cursor: pointer;
+
+        &:hover{
+            background-color: $primary-color;
+            color: $secondary-color;
+        }
+    }
+}
